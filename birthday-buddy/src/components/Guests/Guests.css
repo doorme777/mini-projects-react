@@ -1,0 +1,11 @@
+.Guests {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: var(--spacing-m);
+  width: 100%;
+  max-width: 530px;
+  min-height: 240px;
+  border-radius: 12px;
+  background-color: hsl(206, 41%, 97%);
+}
