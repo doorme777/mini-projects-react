@@ -1,0 +1,19 @@
+{
+  "name": "practica-con-mini-proyectos-react",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "WebDevelopment",
+    "FrontEnd",
+    "JavaScript",
+    "HTML",
+    "CSS"
+  ],
+  "author": "doorme777",
+  "license": "ISC",
+  "description": "This is a repository with mini projects made with React"
+}
