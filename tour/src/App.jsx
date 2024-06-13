@@ -17,7 +17,7 @@ function App() {
       <Layout>
         <Header />
         <ToursGrid>
-          {listOfTours.map((tour) => {
+          {tours.map((tour) => {
             return (
               <ToursCard
                 key={tour.id}

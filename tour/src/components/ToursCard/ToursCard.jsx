@@ -28,7 +28,8 @@ function ToursCard({ id, removeTour, ...props }) {
           <button
             className="text-m text-red-700 border-red-700 bg-transparent rounded-md hover:text-white hover:bg-red-700 px-5 py-2 mt-2 mx-auto"
             onClick={() => {
-              console.log('remove tour', id);
+              console.log('Subete a la xavineta');
+              console.log('Miami me lo confirmo vamos tío');
               removeTour(id);
             }}
           >
