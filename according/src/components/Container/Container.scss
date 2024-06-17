@@ -1,0 +1,19 @@
+section {
+  margin: 5rem auto;
+  width: 90vw;
+  max-width: 800px;
+  height: 100%;
+  padding-inline: 20px;
+  padding-block: 12px;
+  border-radius: 4px;
+  color: black;
+  background-color: floralwhite;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 300;
+    margin-block: 12px;
+  }
+}
