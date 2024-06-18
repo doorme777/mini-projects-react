@@ -1,0 +1,49 @@
+article.card {
+  width: 100%;
+  max-width: 486px;
+  background-color: #f0f0f0;
+  border-radius: 12px;
+}
+
+.card figure {
+  height: 36vh;
+  object-fit: cover;
+}
+
+.card figure img {
+  width: 100%;
+  height: 100%;
+  border-start-end-radius: 12px;
+  border-start-start-radius: 12px;
+}
+
+.card .container-description {
+  padding: 12px;
+}
+
+.card .container-description .header-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-end: 12px;
+}
+
+.card .container-description .header-description h3 {
+  font-weight: 700;
+  font-size: large;
+  color: black;
+}
+
+.card .container-description .header-description span {
+  padding-inline: 8px;
+  padding-block: 2px;
+  border-radius: 12px;
+  background-color: rgb(236, 159, 15);
+  color: white;
+}
+
+.container-description {
+  line-height: calc(14px * 1.5);
+  font-weight: 200;
+  color: hsl(0, 2%, 67%);
+}

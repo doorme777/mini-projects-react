@@ -1,0 +1,9 @@
+.ContainterCards {
+  display: grid;
+  justify-content: center;
+  align-items: start;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 16px;
+  margin-block-start: 12px;
+}
