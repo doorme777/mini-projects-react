@@ -1,0 +1,47 @@
+nav {
+  padding: 1.5rem 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li button {
+  font-size: medium;
+  font-weight: 500;
+  border: none;
+  background-color: transparent;
+  transition: 0.25s ease-in-out;
+}
+
+nav ul li button:hover {
+  color: hsl(180, 89%, 48%);
+}
+
+nav ul li button:hover::after,
+nav ul li button:active:before {
+  content: "";
+  display: block;
+  border-bottom: 2.75px solid hsl(180, 89%, 48%);
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    padding: 1.92rem 1.5rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  nav ul li button {
+    font-size: large;
+  }
+}

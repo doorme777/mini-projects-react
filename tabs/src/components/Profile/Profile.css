@@ -1,0 +1,43 @@
+.profile {
+  padding: 1.5rem 0;
+}
+
+.profile header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.profile header h2 {
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.profile header span {
+  font-size: medium;
+  font-weight: 400;
+  text-transform: uppercase;
+  width: min-content;
+  padding: 0.8rem 1.2rem;
+  border-radius: 4px;
+  color: hsl(208, 42%, 22%);
+  background-color: hsl(208, 7%, 46%);
+}
+
+.profile header p {
+  font-size: medium;
+  font-weight: 400;
+  color: hsl(208, 7%, 46%);
+}
+
+.profile ul {
+  font-size: small;
+  color: hsl(208, 16%, 16%);
+}
+
+.profile ul li::marker {
+  position: relative;
+  content: url("../../assets/Double_arrow_right.svg");
+  margin-right: 12px;
+  transform: translateY(-2px);
+}
