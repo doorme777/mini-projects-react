@@ -1,0 +1,33 @@
+.container-icons {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 4px;
+}
+
+.backward,
+.foward {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: aquamarine;
+  background-position: center;
+  transition: 0.07s ease-in-out;
+}
+
+.backward:hover,
+.foward:hover {
+  background-color: rgb(95, 187, 156);
+}
+
+.backward {
+  background-image: url('../../../public/assets/backward.svg');
+  background-repeat: no-repeat;
+}
+
+.foward {
+  background-image: url('../../../public/assets/foward.svg');
+  background-repeat: no-repeat;
+}
