@@ -79,3 +79,12 @@
   background-position: center;
   background-color: blueviolet;
 }
+
+.containterImage.animate__slideInRight,
+.details.animate__slideInRight,
+.decorationImage.animate__slideInRight,
+.containterImage.animate__slideInLeft,
+.details.animate__slideInLeft,
+.decorationImage.animate__slideInLeft {
+  animation-duration: 0.4s;
+}

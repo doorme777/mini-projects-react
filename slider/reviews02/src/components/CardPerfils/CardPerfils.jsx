@@ -1,9 +1,8 @@
 import React from 'react';
-import 'animate.css';
 import './CardPerfils.css';
 
 function CardPerfils({ children }) {
-  return <section className="container animate__zoomIn">{children}</section>;
+  return <section className="container">{children}</section>;
 }
 
 export default CardPerfils;
