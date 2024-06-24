@@ -1,0 +1,35 @@
+h1 {
+  text-align: center;
+  margin-block-end: 12px;
+}
+
+.container-counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 4px;
+  margin-block-end: 12px;
+}
+
+.container-counter label {
+  display: flex;
+  align-items: center;
+}
+
+.input-lorem {
+  width: 53px;
+  margin: 0 16px;
+  padding: 10px 4px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.generate-lorem {
+  width: 72px;
+  padding: 10px 4px;
+  border: none;
+  border-radius: 5px;
+  background-color: hsl(90, 53%, 51%);
+  font-weight: 600;
+  color: #fff;
+}
